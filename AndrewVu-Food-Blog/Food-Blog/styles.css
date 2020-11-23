@@ -1,0 +1,118 @@
+/* colors:
+
+#cdcdcd for middle 
+#000000 for nav and footer
+#fe0000 for pop up at the bototm
+#ffffff for logo
+*/
+
+#splash {
+
+    background-image: url(heading.jpg);
+    background-size: cover;
+    height: 400px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+aside {
+    margin-left: 35px;
+    text-align: center;
+
+}
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    background-color: #cdcdcd;
+    margin: 0;
+}
+
+nav {
+    color: #000000;
+    background-color: #000000;
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    width: 100%;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 15px;
+
+}
+
+h1 {
+    font-family: "teko";
+    font-size: 72pt;
+    color: #000000;
+    text-align: center;
+
+}
+
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-style: oblique;
+    text-decoration: none;
+    padding: 20px;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+#foodarticles {
+    padding: 50px;
+}
+
+article {
+    margin-bottom: 100px;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#container {
+    margin: auto;
+    width: 1000px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 75% 25%;
+
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+.ad {
+    background-color: #fe0000;
+    padding: 40px;
+    width: 25%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
